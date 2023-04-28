@@ -1,0 +1,31 @@
+a{
+
+    text-decoration: none;
+}
+.nav-link dropdown-toggle
+{
+    color: white;
+    text-decoration: none;  
+}
+#raj
+{
+    color: white;
+    text-decoration: none;
+}
+
+.rr
+{
+    font-size: small;
+}
+.choose
+{
+    color: red;
+}
+#info
+{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0%;
+    
+}
