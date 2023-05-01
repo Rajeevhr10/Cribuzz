@@ -1,129 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-   <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
   <title>Cricket Scoreboard</title>
 </head>
+
 <body>
   <div class="list-unstyled">
-  <nav class="navbar bg-success" data-bs-theme="dark" id="raj">
-    
-        <a href="./index.html">
+    <nav class="navbar bg-success" data-bs-theme="dark" id="raj">
+
+      <a href="./index.html">
         <img src="./cb_logo.svg" alt="CRicbuzz" id="logo"></a>
-        <a href="https://www.cricbuzz.com/cricket-match/live-scores" id="raj">Live Scores</a>
-        <a href="https://www.cricbuzz.com/cricket-schedule/upcoming-series/international" id="raj">Schedule</a>
-        <a href="https://www.cricbuzz.com/cricket-scorecard-archives" id="raj">Archives</a>
-        <li class="nav-item dropdown list-unstyled">
-          <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-news" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            News
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news">All Stories</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/latest-news">Latest News</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/editorial/interviews">Interviews</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/editorial/editorial-list">Opinions</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/editorial/live-blogs">Live Blogs</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-schedule/series" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Series
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023">Indian Premier League</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-series/4896/new-zealand-tour-of-pakistan-2023">New Zealand tour of Pakistan</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-series/5913/ireland-tour-of-sri-lanka-2023">Ireland tour of Sri Lanka</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-series/5917/icc-world-test-championship-final-2023">Icc World Test Championship Final 2023</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-team" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Teams
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/india/2">India</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/afghanistan/96">Afghanistan</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/australia/4">Australia</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/pakistan/3">Pakistan</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/sri-lanka/5">Sri Lanka</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/new-zealand/13">New Zealand</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/england/9">England</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/west-indies/10">West Indies</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/south-africa/11">South Africa</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-videos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Videos
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos">All Videos</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos/categories">Categories</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos/playlists">Playlists</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Rankings
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/icc-rankings/men/batting">ICC Rankings - Men</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/icc-rankings/women/batting">ICC Rankings - Women</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           More
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/points-table/test/icc-world-test-championship">World Test Championship</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/points-table/odi/icc-men-cricket-world-cup-super-league">World cup Super League</a></li>
-            <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-photo-gallery">Photos</a></li>
-          </ul>
-        </li>
-      
-        <form class="d-flex" role="search" >
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" i>
-          <button class="btn btn-outline-success" type="submit" style="color:red">Search</button>
-        </form>
-      </div>
+      <a href="https://www.cricbuzz.com/cricket-match/live-scores" id="raj">Live Scores</a>
+      <a href="https://www.cricbuzz.com/cricket-schedule/upcoming-series/international" id="raj">Schedule</a>
+      <a href="https://www.cricbuzz.com/cricket-scorecard-archives" id="raj">Archives</a>
+      <li class="nav-item dropdown list-unstyled">
+        <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-news" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          News
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news">All Stories</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/latest-news">Latest News</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/editorial/interviews">Interviews</a>
+          </li>
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-news/editorial/editorial-list">Opinions</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-news/editorial/live-blogs">Live Blogs</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-schedule/series" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Series
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023">Indian Premier League</a>
+          </li>
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-series/4896/new-zealand-tour-of-pakistan-2023">New Zealand tour of
+              Pakistan</a></li>
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-series/5913/ireland-tour-of-sri-lanka-2023">Ireland tour of Sri
+              Lanka</a></li>
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-series/5917/icc-world-test-championship-final-2023">Icc World Test
+              Championship Final 2023</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-team" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Teams
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/india/2">India</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/afghanistan/96">Afghanistan</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/australia/4">Australia</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/pakistan/3">Pakistan</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/sri-lanka/5">Sri Lanka</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/new-zealand/13">New Zealand</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/england/9">England</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/west-indies/10">West Indies</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-team/south-africa/11">South Africa</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.cricbuzz.com/cricket-videos" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Videos
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos">All Videos</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos/categories">Categories</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-videos/playlists">Playlists</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Rankings
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/icc-rankings/men/batting">ICC
+              Rankings - Men</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-stats/icc-rankings/women/batting">ICC
+              Rankings - Women</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          More
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-stats/points-table/test/icc-world-test-championship">World Test
+              Championship</a></li>
+          <li><a class="dropdown-item"
+              href="https://www.cricbuzz.com/cricket-stats/points-table/odi/icc-men-cricket-world-cup-super-league">World
+              cup Super League</a></li>
+          <li><a class="dropdown-item" href="https://www.cricbuzz.com/cricket-photo-gallery">Photos</a></li>
+        </ul>
+      </li>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" i>
+        <button class="btn btn-outline-success" type="submit" style="color:red">Search</button>
+      </form>
+  </div>
 
   </nav>
-  
+
   <nav class="navbar bg-black" data-bs-theme="dark">
-    <a href="#" id="raj">MATCHES</a>
-    <a href="#" id="raj">RR vs MI</a>
-    <a href="#" id="raj">CSK vs PBKS-PBKS Won</a>
-    <a href="#" id="raj">SRH vs DC-DC Won</a>
-    <a href="#" id="raj">lSG vs RCB-Preview</a>
-    <a href="#" id="raj">KKR vs GT-GT Won</a>
+    <a href="https://www.cricbuzz.com/cricket-match/live-scores" id="raj">MATCHES</a>
+    <a href="https://www.cricbuzz.com/live-cricket-scores/66306/lsg-vs-rcb" id="raj">LSG vs RCB-Preview</a>
+    <a href="https://www.cricbuzz.com/live-cricket-scores/66299/rr-vs-mi" id="raj">RR vs MI-MI Won</a>
+    <a href="https://www.cricbuzz.com/live-cricket-scores/66288/csk-vs-pbk" id="raj">CSK vs PBKS-PBKS Won</a>
+    <a href="https://www.cricbuzz.com/live-cricket-scores/66526/srh-vs-dc" id="raj">SRH vs DC-SRH Won</a>
+    <a href="https://www.cricbuzz.com/live-cricket-scores/66519/kkr-vs-gt" id="raj">KKR vs GT-GT Won</a>
     <a href="#" id="raj">ALL</a>
   </nav>
   <nav class="navbar" style="background-color: #e3f2fd;"></nav>
-    <!-- Navbar content -->
-    <center>
-      <h2>Chennai Super Kings vs Punjab Kings, 41st Match - Live Cricket Score, Commentary</h2>
-      <h5>
-        <pre>  <u>Series:</u> MA Chidambaram Stadium, Chennai    <u>Date & Time:</u>  Apr 30, 03:30 PM LOCAL</pre>
-      </h5>
-    </center>
-
+  <!-- Navbar content -->
+  <center>
+    <h2>Chennai Super Kings vs Punjab Kings, 41st Match - Live Cricket Score, Commentary</h2>
+    <h5>
+      <p ><b>Series:</b><a href="https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023" id="p">Indian Premier League2023</a> 
+        <b>Venue:</b><a href="https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023/venues/11/ma-chidambaram-stadium" id="p">
+        MA Chidambaram Stadium, Chennai</a>      <b>Date & Time:</b>  Apr 30, 03:30 PM LOCAL</p>
+    </h5>
+  </center>
   <div class="d-flex align-content-between flex-wrap" id="info">
-    <div class="p-5" ><a href="#" id="r">Commentary</a></div>
-    <div class="p-5" ><a href="./scorecard.html">Scorecard</a></div>
-    <div class="p-5"><a href="#">Squads</a></div>
-    <div class="p-5"><a href="#">Highlights</a></div>
-    <div class="p-5" ><a href="#">Live blog</a></div>
-    <div class="p-5"><a href="#">Points Table</a></div>
-    
-    <!-- <div class="p-5">Photos</div> -->
-   </div>
-   
-    <!-- <div class="info"></div>
+    <div class="p-5"><a href="index.html" id="r">Commentary</a></div>
+    <div class="p-5"><a href="./scorecard.html">Scorecard</a></div>
+    <div class="p-5"><a href="https://www.cricbuzz.com/cricket-match-squads/66288/csk-vs-pbks">Squads</a></div>
+    <div class="p-5"><a
+        href="https://www.cricbuzz.com/cricket-match-highlights/66288/csk-vs-pbks-41st-match">Highlights</a></div>
+    <div class="p-5"><a href="https://www.cricbuzz.com/live-cricket-match-blog/66288/csk-vs-pbks-41st-match">Live
+        blog</a></div>
+    <div class="p-5"><a
+        href="https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023/points-table">Points Table</a>
+    </div>
+  </div>
+
+  <!-- <div class="info"></div>
         <ul>
           <li >
             <a href="#">Commentry</a>
@@ -139,69 +167,61 @@
           </li>
         </ul> -->
 
-    <div class="score">
-       <h1>LSG 206/3 (16.3) <span class="rr">CRR:12.48</span> </h1>
-       <p class="choose"> Punjab Kings opt to bowl </p>
-    </div>
-     
-    <table class="table table-dark table-borderless">
-      <thead>
-      <tr class="table-secondary">
-        <th>Batter</th>
-        <th>R</th>
-        <th>B</th>
-        <th>4s</th>
-        <th>6s</th>
-        <th>SR</th>
-      </tr></thead>
-      <tr>
-        <td class="table-primary">Nicholos Pooran*</td>
-        <td class="table-light">22</td>
-        <td class="table-light">10</td>
-        <td class="table-light">4</td>
-        <td class="table-light">0</td>
-        <td class="table-light">220.00</td>
-      </tr>
-      <tr>
-        <td class="table-primary">Marcus Stoinis</td>
-        <td class="table-light">62</td>
-        <td class="table-light">36</td>
-        <td class="table-light">5</td>
-        <td class="table-light">4</td>
-        <td class="table-light">172.22</td>
-      </tr>
-      <!-- </table>
-      <table class="table table-dark table-borderless"> -->
-      <thead>
-      <tr class="table-secondary">
-        <th>Bowler</td>
-        <th>O</th>
-        <th>M</th>
-        <th>R</th>
-        <th>W</th>
-        <th>ECO</th>
-      </tr>
-    </thead>
-    <tr>
-      <td class="table-primary">Arshdeep Singh</td>
-      <td class="table-light">2.3</td>
-      <td class="table-light">0</td>
-      <td class="table-light">32</td>
-      <td class="table-light">0</td>
-      <td class="table-light">12.80</td>
-    </tr>
-    <tr>
-      <td class="table-primary">Kagiso Rabada</td>
-      <td class="table-light">3</td>
-      <td class="table-light">0</td>
-      <td class="table-light">34</td>
-      <td class="table-light">2</td>
-      <td class="table-light">11.33</td>
-    </tr>
-  </table>
-  <pre><b>  Recent:</b>...0|L4 1 1 6 N1 Wd 1 0 | 1 4 1</pre>
-    
+  <div class="score">
+    <h1>CSK 200/4 (20)</h1>
+    <h1>PBKS 201/6 (20)</h1>
+    <p style="color:blue">Punjab Kings won by 4wkts</p>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <p>PLAYER OF THE MATCH
+      <a href="https://www.cricbuzz.com/profiles/9838/devon-conway">Devon Conway</a>
+    </p>
+  </div>
+
+  <p>So that brings down the curtains on this one. The other game between MI and RR has already started. You can hop
+    tabs to follow that one. Time for me now to escape. But you guys keep coming back here for more. See you another
+    day. Bye</p>
+  <p>
+    <b>Devon Conway | Player of the Match:</b> As I said at the innings break, we felt that it is a bit slow when you
+    hit the
+    wicket but to be fair it was a good wicket. We felt that 200 was a very competitive score. Disappointed that we lost
+    that one. It is never easy. It is about keeping things simple, sticking to my process and not to complicate things.
+    In T20s it can be up and down. I try to work as close as I can with Mike Hussey who is very experienced not only for
+    Australia but also for CSK, he has played a lot of cricket here, along with the other players. I enjoy batting with
+    Ruturaj and Ajinkya has got a lot of experience. When you build partnerships, it helps.
+  </p>
+  <p>
+    <b>Shikhar Dhawan | PBKS captain:</b> It feels very very special. Beating Chennai in Chennai is a very big thing.
+    Very very
+    pleased and that shows the great character of our side, leaving that loss behind and coming up with a fresh mindset.
+    I was very happy with the way our bowlers bowled, we got them at the right score. They have been very consistent. As
+    a captain we wanted them to play more overs, Liam has got his touch back and would want him to bat more overs. Good
+    signs that all are playing well.
+  </p>
+  <p>
+    <b>Sikandar Raza:</b> Everytime you win a match for your team it's a good feeling. I was just looking at a lot of
+    arms
+    being raised in the dressing room (discussion with umpires before final ball). No idea. Maybe it was about retiring
+    one of the guys. I don't know. We said we were one boundary away from run a ball (in the final over), and if we
+    can't get that, we'll run well. That over where Livi took charge and took 20 off one over, that changed momentum.
+    When I went, I just wanted to run as hard as I can. I was trying to hit a six but wasn't succeeding.
+  </p>
+  <p>
+    <b>MS Dhoni | CSK captain:</b>We need to be prepared as to what is to be done. The last few overs when we were
+    batting, we
+    could have gotten 10-15 more. Our bowling needed some cushion. The slower one did grip. Our batters have been
+    putting runs consistently. I think 200 was par but we bowled two bad overs. We know the conditions well. We didn't
+    bowl well. You didn't want to get hit to that side. You need to see what is the problem. The execution or the plan.
+    Pathirana bowled really well. The first six overs we can do better. What lines to bowl.
+  </p>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

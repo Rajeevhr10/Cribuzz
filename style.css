@@ -26,17 +26,13 @@ a{
 }
 .choose
 {
-    color: red;
+    color: rgba(4, 55, 21, 0.957);
 }
 #info
 {
     display: flex;
     justify-content:space-between;
-    border-bottom: 0.5px solid #aaa;
-    color:black;
-    
-    
-    
+    border-bottom: 0.5px solid #aaa;   
 }
 #logo
 {
@@ -48,4 +44,16 @@ table{
     margin-left: 0.4rem;
     margin-right: 2rem;
 }
-
+#r:hover {
+    color:green;
+    outline-offset: 3px;
+  }
+  #p
+  {
+    color:black;
+  }
+  #p:hover
+  {
+    text-decoration: underline;
+    justify-content: space-around;
+  }
