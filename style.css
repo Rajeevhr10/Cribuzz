@@ -44,7 +44,7 @@ table{
     margin-left: 0.4rem;
     margin-right: 2rem;
 }
-#r:hover {
+#r:hover,{
     color:green;
     outline-offset: 3px;
   }
@@ -52,8 +52,4 @@ table{
   {
     color:black;
   }
-  #p:hover
-  {
-    text-decoration: underline;
-    justify-content: space-around;
-  }
+  
